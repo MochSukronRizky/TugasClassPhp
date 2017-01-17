@@ -1,27 +1,26 @@
 <?php
 
-class Aktivitas{
-	
-	public $JenisKegiatan = "Memasasak";
-	public $NamaBenda = "ikan";
+require 'Benda.php';
 
-	public function Getactived{
-		return "akan";
-	}
-	public function Berakrivitas{
-		echo "sedang";
-	}
-	public function Actived{
-		echo "habis";
-	}
+/**
+* class aktivitas
+*/
+class aktivitas
+{
+    public $JenisKegiatan;
+    public $NamaBenda;
 
+    public function GetActived()
+    {
+        return 'will be done';
+    }
+    public function theMove()
+    {
+        return 'on going';
+    }
+    public function Actived()
+    {
+        return 'it is already done';
+    }
 }
-class Sifat{
-	public $JenisSifat
-
-}
-class Benda{
-	public $JenisBenda
-}
-
 ?>

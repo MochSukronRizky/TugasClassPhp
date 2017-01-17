@@ -1,17 +1,18 @@
 <?php
+/**
+* class wifi
+*/
+class wifi extends benda
+{
+    public $connections
 
-class Wifi{
-	public $Connection
-
-	public function On(){
-		return 'turn on';
-	}
-	public function Trouble(){
-		return 'can not use to connectifity';
-	}
-	public function Off(){
-		return 'turn off';
-	}
+    public function connect()
+    {
+        return 'connected from '.$connections;
+    }
+    public function disconnect()
+    {
+        return 'disconnected from '.$connections;
+    }
 }
-
 ?>

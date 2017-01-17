@@ -1,14 +1,18 @@
 <?php
+/**
+* class botol
+*/
+class Botol extends benda
+{
+    public $air;
 
-class BotolAirMinum{
-	public $Air;
-
-	public function Open{
-		return 'Opened Botle';
-	}
-	public function closed{
-		return 'Closed Botle';
-	}
+    public function Open()
+    {
+        return 'Opened botle';
+    }
+    public function Close()
+    {
+        return 'Closed botle'
+    }
 }
-
 ?>

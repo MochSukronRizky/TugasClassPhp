@@ -1,14 +1,19 @@
-<?php 
+<?php
+/**
+* class RiceCoocer
+*/
+class RiceCoocer extends benda
+{
+    public $nasi
 
-class Ricecocer{
-	
-	public $Nasi;
+    public function on()
+    {
+        return 'powered on';
+    }
 
-	public function On(){
-		return 'Turn On';
-	}
-	public function Off(){
-		return 'Turn Off';
-	}
+    public function off()
+    {
+        return 'powered off';
+    }
 }
 ?>

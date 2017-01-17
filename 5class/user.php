@@ -1,15 +1,20 @@
 <?php
-	
-class Name{
-	
-	public $nama;
-	public $sandi;
+/**
+*
+*/
+class user
+{
+    public $nama;
+    public $password;
 
-	public function Login(){
-		return 'logging in...';
-	}
-	public function Logout(){
-		return 'logging out...';
-	}
+    public function login()
+    {
+        return 'logging in ..';
+    }
+    public function logout()
+    {
+        return 'logging out ...';
+
+    }
 }
 ?>
